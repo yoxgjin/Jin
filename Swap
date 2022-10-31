@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int C,D,E;
+printf("Enter the value of C and D");
+scanf("%d%d",&C,&D);
+E=C;
+C=D;
+D=E;
+printf("C=%d",C);
+printf("C=%d",D);
+getch();
+}
