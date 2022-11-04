@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+clrscr();
+a=10;
+b=5;
+a=a+b;
+b=a-b;
+a=a-b;
+printf("Value of A is %d",a);
+printf("Value of B is %d",b);
+getch();
+}
